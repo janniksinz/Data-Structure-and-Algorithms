@@ -2,6 +2,7 @@ package ScoreBoard_FixesList;
 import java.util.*;
 
 private class ScoreBoardEntry{
+	//
 	String playerName;
 	int score;
 
