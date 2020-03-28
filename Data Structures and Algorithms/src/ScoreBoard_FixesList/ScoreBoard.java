@@ -1,8 +1,6 @@
 package ScoreBoard_FixesList;
 import java.util.*;
 
-
-
 public class ScoreBoard{ //Fixed Size Array
 	
 	private int numPlayers = 0;
