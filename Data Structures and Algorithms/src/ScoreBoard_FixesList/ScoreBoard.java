@@ -1,16 +1,7 @@
 package ScoreBoard_FixesList;
 import java.util.*;
 
-private class ScoreBoardEntry{
-	//
-	String playerName;
-	int score;
 
-	//Constructor
-	public ScoreBoardEntry() {
-		//TODO
-	}
-}
 
 public class ScoreBoard{ //Fixed Size Array
 	
