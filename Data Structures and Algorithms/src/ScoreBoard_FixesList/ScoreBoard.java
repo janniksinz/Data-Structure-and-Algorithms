@@ -7,7 +7,7 @@ public class ScoreBoard
 	private int numPlayers = 0;
 	//Declare Array
 	private ScoreBoardEntry[] board;
-	private ScoreBoardEntry[] copy_board;
+	private ScoreBoard[] copy_board;
 	
 	//Constructor
 	public ScoreBoard(int arraySize)
@@ -39,7 +39,7 @@ public class ScoreBoard
 	//----------ADD-------
 	public void addElement(int index, ScoreBoardEntry element)
 	{
-		if (board.length==numPlayers-1) {
+		if (numPlayers==) {
 			expandArray(numPlayers);
 		} //	end if
 		board[index]=element;
@@ -54,14 +54,16 @@ public class ScoreBoard
 	
 	
 	//---------EXPAND---------
-	private void expandArray(int size)
+	private ScoreBoard[] expandArray(int size, ScoreBoard[] myBoard)
 	{
+		System.out.println("expand function called");
 		//new array (+10)
-		copy_board = new ScoreBoardEntry[size+10];
+		copy_board = new ScoreBoard[board.length+10];
 		//copy array way 1
 		System.arraycopy(board, 0, copy_board, 0, copy_board.length);
-		board = new ScoreBoardEntry[copy_board.length];
-		board=copy_board.clone();
+		myBoard = new ScoreBoard[copy_board.length];
+		myBoard=copy_board.clone();
+		return myBoard;
 	} //	end EXPAND
 
 	

@@ -22,7 +22,13 @@ public class TestScoreBoard {
 			System.out.println(" "+myBoard.getElement(i).score+"\n");
 			b=true;
 		} if (b==true) {System.out.println("element-output-test passed\n-----------\n");}
-		
+		//testing overflow expansion
+		System.out.println(myBoard.boardSize());
+		for (int i =2;i<12;i++)
+		{
+			 myBoard.addElement(i, player2); 
+			 System.out.println(myBoard.boardSize());
+		}
 		
 	}
 
