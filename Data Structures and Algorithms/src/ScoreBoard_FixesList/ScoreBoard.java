@@ -22,6 +22,11 @@ public class ScoreBoard
 		return numPlayers;
 	}
 	
+	public int boardSize()
+	{
+		return numPlayers;
+	}
+	
 	//-------IS-EMPTY-----------
 	public boolean isEmpty()
 	{
@@ -38,6 +43,7 @@ public class ScoreBoard
 			expandArray(numPlayers);
 		} //	end if
 		board[index]=element;
+		numPlayers+=1;
 	} //	end ADD
 	
 	//---------GET---------
