@@ -8,12 +8,12 @@ public class TestScoreBoard {
 		
 		//add new players in the Scoreboard
 		ScoreBoardEntry player1 = new ScoreBoardEntry("Ines", 40);
-		ScoreBoardEntry player1 = new ScoreBoardEntry("Giovanni", 43);
+		ScoreBoardEntry player2 = new ScoreBoardEntry("Giovanni", 43);
 		
 		myBoard.addElement(0, player1);
 		
 		//Display
-		ScoreBoardEntry
+		
 	}
 
 }
