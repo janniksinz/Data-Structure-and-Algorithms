@@ -6,7 +6,8 @@ public class ScoreBoardEntry {
 	int score;
 
 	//Constructor
-	public ScoreBoardEntry() {
-		//TODO
+	public ScoreBoardEntry(String name, int score) {
+		this.playerName=name;
+		this.score=score;
 	}
 }
