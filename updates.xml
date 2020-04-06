@@ -1,0 +1,20 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <enabledExternalComponentSources>
+      <item value="Android SDK" />
+    </enabledExternalComponentSources>
+    <option name="externalUpdateChannels">
+      <map>
+        <entry key="Android SDK" value="Stable Channel" />
+      </map>
+    </option>
+    <knownExternalComponentSources>
+      <item value="Android SDK" />
+    </knownExternalComponentSources>
+    <option name="LAST_BUILD_CHECKED" value="IC-193.6911.18" />
+    <option name="LAST_TIME_CHECKED" value="1586208098058" />
+    <pluginHosts>
+      <item value="https://plugins.jetbrains.com/?_ga=2.149764022.1690333876.1586112958-891366730.1585898755&amp;_gac=1.146416198.1586115800.CjwKCAjwg6b0BRBMEiwANd1_SKrbNEeOmGyyH542SZ80QCZhd859qexaXH65akyh4qfGJBOVv5Du8hoClC0QAvD_BwE" />
+    </pluginHosts>
+  </component>
+</application>
