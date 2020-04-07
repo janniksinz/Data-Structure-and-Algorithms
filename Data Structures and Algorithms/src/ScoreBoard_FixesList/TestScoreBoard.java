@@ -10,8 +10,8 @@ public class TestScoreBoard {
 		ScoreBoardEntry player1 = new ScoreBoardEntry("Ines", 40);
 		ScoreBoardEntry player2 = new ScoreBoardEntry("Giovanni", 43);
 		
-		myBoard.addElement(0, player1);
-		myBoard.addElement(1, player2);
+		myBoard.addElement(0, player1, myBoard);
+		myBoard.addElement(1, player2, myBoard);
 		System.out.println("Empty:\n"+myBoard.isEmpty()+"\n-Test passed\n-----------\n");
 		System.out.println("Size:\n"+myBoard.boardSize()+"\n-Test passed\n-----------\n");
 		//	ouput all elements

@@ -37,10 +37,10 @@ public class ScoreBoard
 		}
 	}
 	//----------ADD-------
-	public void addElement(int index, ScoreBoardEntry element)
+	public void addElement(int index, ScoreBoardEntry element, ScoreBoard[] myBoard)
 	{
-		if (numPlayers==) {
-			expandArray(numPlayers);
+		if (numPlayers==myBoard.length) {
+			expandArray(numPlayers, myBoard);
 		} //	end if
 		board[index]=element;
 		numPlayers+=1;
